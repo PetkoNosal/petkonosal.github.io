@@ -1,0 +1,17 @@
+title: Soponka.sk
+description: The cutest drawings on the web...
+url: soponka.sk
+email: petonosal@gmail.com
+github_username:  PetkoNosal
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-architect
+
+#plugins:
+#  - jekyll-feed
+
+# Exclude from processing.
+exclude:
+  - .idea/
+  - CNAME

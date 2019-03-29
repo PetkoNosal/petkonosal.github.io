@@ -1,0 +1,6 @@
+- name: Home
+  link: /
+- name: My Gallery
+  link: /gallery
+- name: Your Request
+  link: /request
