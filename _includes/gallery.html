@@ -1,0 +1,7 @@
+{% for image in site.static_files %}
+{% if image.path contains 'images/gallery' %}
+<a href="{{ site.baseurl }}{{ image.path }}">
+<img src="{{ site.baseurl }}{{ image.path }}" alt="image" class="img-fluid" />
+</a>
+{% endif %}
+{% endfor %}

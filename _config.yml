@@ -6,12 +6,12 @@ github_username:  PetkoNosal
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-architect
-
-#plugins:
-#  - jekyll-feed
 
 # Exclude from processing.
 exclude:
   - .idea/
+  - .gitignore
   - CNAME
+  - README.md
+  - Gemfile
+  - Gemfile.locl

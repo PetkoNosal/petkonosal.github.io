@@ -1,6 +1,13 @@
-<nav>
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    {% for item in site.data.navigation %}
-    <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
-    {% endfor %}
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">soponka.sk</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="navbar-nav">
+            {% for item in site.data.navigation %}
+            <a {% if page.url == item.link %}class="nav-item nav-link active"{% else %}class="nav-item nav-link"{% endif %} href="{{ item.link }}">{{ item.name }}</a>
+            {% endfor %}
+        </div>
+    </div>
 </nav>

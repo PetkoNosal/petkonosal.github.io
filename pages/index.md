@@ -1,7 +1,6 @@
 ---
 permalink: /
 ---
-{% include navigation.html %}
 
 ~~~
 Hello there!
