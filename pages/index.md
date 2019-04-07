@@ -3,6 +3,7 @@ title: soponka.sk
 permalink: /
 ---
 
+```
 Hello there!  
 My name is Šoponka, or Etttska for short...  
 I really, really like to draw, and people around me  
@@ -24,3 +25,4 @@ I will be more than happy to do so :)
 
 But... this is a feature for another day :) For now, just enjoy what you see  
 and I thank you for visiting...
+```
